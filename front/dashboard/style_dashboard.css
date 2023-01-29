@@ -1,0 +1,233 @@
+body {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: initial;
+}
+
+header {
+  background-color: rgb(250, 0, 62);
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 8px solid rgb(27, 27, 27);
+  padding: 0 50px 0 30px;
+}
+
+h1 {
+  color: rgb(27, 27, 27);
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.logout {
+  padding: 5px;
+  width: 70px;
+  border-radius: 5px;
+  border: 2px solid rgb(27, 27, 27);
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(27, 27, 27);
+  transition: 0.3s;
+  display: inline-block;
+  background-color: transparent;
+  text-align: center;
+}
+
+.logout:hover {
+  background-color: rgb(27, 27, 27);
+  color: rgb(250, 0, 62);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.section_form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  height: 570px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: rgb(27, 27, 27);
+  font-size: 1.6rem;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: inherit;
+}
+
+label {
+  color: rgb(27, 27, 27);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-bottom: 3px;
+  align-self: flex-start;
+  margin-left: 15px;
+}
+
+input {
+  width: 94%;
+  padding: 5px;
+  border-radius: 4px;
+  border: 2px solid rgb(255, 140, 217);
+  transition: 0.3s;
+}
+
+input:focus {
+  color: rgb(27, 27, 27);
+  border: 2px solid rgb(250, 0, 62);
+  transition: 0.3s;
+}
+
+input::placeholder {
+  color: rgb(255, 140, 217);
+  transition: 0.3s;
+}
+
+input:focus::placeholder {
+  color: rgb(250, 0, 62);
+  transition: 0.3s;
+}
+
+select {
+  width: 94%;
+  padding: 5px;
+  border-radius: 4px;
+  border: 2px solid rgb(255, 140, 217);
+  color: rgb(255, 140, 217);
+  transition: 0.3s;
+}
+
+select:focus {
+  color: rgb(250, 0, 62);
+  border: 2px solid rgb(250, 0, 62);
+  transition: 0.3s;
+}
+
+select::placeholder {
+  color: rgb(255, 140, 217);
+  transition: 0.3s;
+}
+
+select:focus::placeholder {
+  color: rgb(250, 0, 62);
+  transition: 0.3s;
+}
+
+textarea {
+  resize: none;
+  width: 90%;
+  border-radius: 4px;
+  border: 2px solid rgb(255, 140, 217);
+  transition: 0.3s;
+  padding: 8px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+textarea:focus {
+  color: rgb(27, 27, 27);
+  border: 2px solid rgb(250, 0, 62);
+  transition: 0.3s;
+}
+
+textarea::placeholder {
+  color: rgb(255, 140, 217);
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  transition: 0.3s;
+}
+
+textarea:focus::placeholder {
+  color: rgb(250, 0, 62);
+  transition: 0.3s;
+}
+
+.botao_registrar {
+  padding: 5px;
+  margin-bottom: 8px;
+  width: 160px;
+  border-radius: 5px;
+  border: 2px solid rgb(27, 27, 27);
+  background-color: transparent;
+  font-size: 1rem;
+  color: rgb(27, 27, 27);
+  transition: 0.3s;
+}
+
+.botao_registrar:hover {
+  border: 2px solid rgb(250, 0, 62);
+  background-color: rgb(250, 0, 62);
+  color: white;
+  transition: 0.3s;
+}
+
+section.section_anotacoes {
+  width: 55%;
+  margin-right: 30px;
+}
+
+ul {
+  margin-top: 40px;
+}
+
+li {
+  border: 2px solid white;
+  padding: 16px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+
+h3 {
+  color: rgb(250, 0, 62);
+  font-size: 1.5rem;
+}
+
+span {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 4px;
+  margin: 8px 0 16px 0;
+  border-radius: 16px;
+}
+.basico {
+  background-color: rgb(45, 245, 45);
+}
+.intermediario {
+  background-color: rgb(255, 255, 43);
+}
+.avancado {
+  background-color: rgb(255, 33, 33);
+}
+
+p {
+  font-size: 0.9rem;
+  color: white;
+}
