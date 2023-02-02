@@ -1,6 +1,6 @@
 <?php
 
-namespace Wigo\StudyNotes\Helper;
+namespace Wigo\StudyNotes\Infra;
 
 use Doctrine\DBAL\DriverManager;
 use Doctrine\DBAL\Logging\Middleware;

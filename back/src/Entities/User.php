@@ -46,4 +46,9 @@ class User
     {
         return $this->notes;
     }
+
+    public function virificaSenha(string $senhaPura): bool
+    {
+        return password_verify($senhaPura, $this->password);
+    }
 }
